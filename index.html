@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Fake</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 150px;
+        }
+        input[type="text"] {
+            width: 450px;
+            padding: 12px;
+            border-radius: 25px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+        }
+        a {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="/advanced">Pesquisa Avançada</a>
+
+    <h1 style="font-size:60px; color:#4285F4;">G<span style="color:#EA4335;">o</span><span style="color:#FBBC05;">o</span><span style="color:#4285F4;">g</span><span style="color:#34A853;">l</span><span style="color:#EA4335;">e</span></h1>
+
+    <form action="/search" method="get">
+        <input type="text" name="q" placeholder="Pesquisar no Google">
+        <div class="btn">
+            <button type="submit">Pesquisa Google</button>
+        </div>
+    </form>
+
+</body>
+</html>

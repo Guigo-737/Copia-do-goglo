@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa Avançada - Google Fake</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        h2 { color: #d93025; }
+        label {
+            display: inline-block;
+            width: 200px;
+            margin-bottom: 10px;
+        }
+        input[type="text"] {
+            width: 400px;
+            padding: 5px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        a {
+            text-decoration: none;
+            color: #1a73e8;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="/">Página Inicial</a>
+    <h2>Pesquisa Avançada</h2>
+
+    <form action="/search_advanced" method="get">
+
+        <label>Com todas as palavras:</label>
+        <input type="text" name="all"><br>
+
+        <label>Com a frase exata:</label>
+        <input type="text" name="exact"><br>
+
+        <label>Com qualquer uma das palavras:</label>
+        <input type="text" name="any"><br>
+
+        <label>Sem as palavras:</label>
+        <input type="text" name="none"><br>
+
+        <button type="submit">Pesquisar</button>
+
+    </form>
+
+</body>
+</html>
